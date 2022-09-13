@@ -44,7 +44,7 @@
 <div id="nav-dropdown" class="hidden-xs">
 	<!-- IF !maintenanceHeader -->
 	<!-- IF config.loggedIn -->
-
+		
 	<ul id="logged-in-menu" class="nav navbar-nav navbar-right">
 		<li class="notifications dropdown text-center hidden-xs" component="notifications">
 			<a href="{relative_path}/notifications" title="[[global:header.notifications]]" class="dropdown-toggle" data-toggle="dropdown" id="notif_dropdown" data-ajaxify="false" role="button">

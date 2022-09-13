@@ -105,7 +105,6 @@
 
 	.chat-list {
 		.notification-list;
-
 		>li {
 			.pointer;
 			width: 500px;
@@ -160,7 +159,6 @@
 		position: absolute;
 		bottom: 0px;
 		height: 52px;
-		display: flex;
 		// 搜索框
 		.search-box {
 			float: left;
@@ -170,7 +168,6 @@
 			align-items: center;
 			justify-content: space-between;
 			margin-left: 68px;
-			margin-right: 168px;
 			.menmber {
 				width: 96px;
 				height: 32px;
@@ -484,6 +481,14 @@ label.dropdown-toggle {
 }
 
 .navbar-default {
+	// 导航栏线
+	.header-line{
+		width: 100%;
+		height: 1px;
+		background-color: #E4E4E4;
+		position: absolute;
+		top: 55px;
+	}
 	.navbar-nav {
 		>li>label {
 			color: @navbar-default-link-color;
@@ -577,7 +582,7 @@ html[data-dir="rtl"] {
 
 
 .navbar-default {
-	height: 112px;
+	height: 108px;
 	background-color: #fff;
 	border-width: 0 !important;
 }

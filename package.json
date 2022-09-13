@@ -1,18 +1,44 @@
 {
-  "name": "nodebb-theme-mobvoi-two",
-  "version": "12.1.1",
-  "nbbpm": {
-    "compatibility": "^2.0.0"
+  "_from": "nodebb-theme-mobvoi-two",
+  "_id": "nodebb-theme-mobvoi-two@12.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-tWe7fH9e9u+JIx71D1Dc9cJgJt71eI/Z1KRMbpGBC/AghycN68ynkk9K7N0+SZB7Zov6F2iAeQfQjn/inVrG8w==",
+  "_location": "/nodebb-theme-mobvoi-two",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nodebb-theme-mobvoi-two",
+    "name": "nodebb-theme-mobvoi-two",
+    "escapedName": "nodebb-theme-mobvoi-two",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "description": "mobvoi-two theme for NodeBB",
-  "main": "library.js",
-  "repository": {
-    "type": "git",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-theme-mobvoi-two/-/nodebb-theme-mobvoi-two-12.1.1.tgz",
+  "_shasum": "c73ba15b1b277cf19891c1accb21631f8bd8c050",
+  "_spec": "nodebb-theme-mobvoi-two",
+  "_where": "/Users/jiqing/Documents/growth_platform/nodejs/mobvoi-nodebb",
+  "bugs": {
     "url": "https://github.com/Posion-J/nodebb-theme-mobvoi-two"
   },
-  "scripts": {
-    "lint": "eslint ."
+  "bundleDependencies": false,
+  "dependencies": {
+    "pulling": "^2.0.0",
+    "striptags": "^3.2.0"
   },
+  "deprecated": false,
+  "description": "mobvoi-two theme for NodeBB",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-nodebb": "^0.0.2",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "homepage": "https://github.com/Posion-J/nodebb-theme-mobvoi-two#readme",
   "keywords": [
     "nodebb",
     "theme",
@@ -21,16 +47,17 @@
     "responsive"
   ],
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/Posion-J/nodebb-theme-mobvoi-two"
+  "main": "library.js",
+  "name": "nodebb-theme-mobvoi-two",
+  "nbbpm": {
+    "compatibility": "^2.0.0"
   },
-  "dependencies": {
-    "pulling": "^2.0.0",
-    "striptags": "^3.2.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Posion-J/nodebb-theme-mobvoi-two.git"
   },
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-nodebb": "^0.0.2",
-    "eslint-plugin-import": "^2.24.2"
-  }
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "version": "12.1.1"
 }
